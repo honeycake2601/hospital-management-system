@@ -1,0 +1,18 @@
+### Add Patient
+POST http://localhost:8080/api/patients
+Content-Type: application/json
+
+{
+  "name": "Ananya Kumar",
+  "age": 25,
+  "gender": "Female",
+  "phone": "9876543210",
+  "address": "Chennai",
+  "bloodGroup": "O+"
+}
+
+### Get All Patients
+GET http://localhost:8080/api/patients
+
+### Get Patient by ID
+GET http://localhost:8080/api/patients/1
